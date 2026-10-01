@@ -1,0 +1,20 @@
+# Coeur
+numpy
+pandas
+scipy
+scikit-learn
+pillow
+matplotlib
+tqdm
+
+# Deep learning
+torch
+torchvision
+timm                # backbones pré-entraînés (ConvNeXt, Swin, EfficientNet, ViT)
+facenet-pytorch     # D9 — InceptionResNet-V1 / VGGFace2
+
+# Stacking
+lightgbm            # stacker phase B+
+
+# Notebooks
+notebook

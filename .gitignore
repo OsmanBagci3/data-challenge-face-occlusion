@@ -1,0 +1,29 @@
+# ── Python ───────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# ── Jupyter ──────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Données du challenge (non redistribuables) ───────────────────────
+# Les images et les labels proviennent du dataset du challenge.
+crops/
+data/*.csv
+
+# ── Artefacts d'entraînement lourds ──────────────────────────────────
+artifacts/
+*.pt
+*.pth
+experiments/*.npz
+experiments/*.log
+
+# ── Soumissions (dérivées des données du challenge) ──────────────────
+submissions/
+
+# ── OS ───────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
